@@ -1,5 +1,6 @@
 // Code CoordinatesButton Component Here
-import React from 'react';
+import React, { Component } from "react";
+
 export default class CoordinatesButton extends React.Component{
   handleonClick=(event)=>{
     let arr=[event.clientX,event.clientY]
